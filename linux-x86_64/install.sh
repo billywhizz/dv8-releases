@@ -1,5 +1,6 @@
-wget https://github.com/billywhizz/dv8-releases/archive/v0.0.7.tar.gz
-tar -zxvf v0.0.7.tar.gz
-cp dv8-releases-0.0.7/linux-x86_64/dv8 ./
-rm -fr dv8-releases-0.0.7
-rm -f v0.0.7.tar.gz
+export DV8_VERSION="0.0.8"
+wget https://github.com/billywhizz/dv8-releases/archive/v$DV8_VERSION.tar.gz
+tar -zxvf v$DV8_VERSION.tar.gz
+cp dv8-releases-$DV8_VERSION/linux-x86_64/dv8 ./
+rm -fr dv8-releases-$DV8_VERSION
+rm -f v$DV8_VERSION.tar.gz
